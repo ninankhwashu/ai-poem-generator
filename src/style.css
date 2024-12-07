@@ -1,6 +1,9 @@
 body {
-  background-color: #f9f7fe;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Helvetica;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 header {
@@ -12,7 +15,7 @@ h1 {
   font-weight: 800;
   font-size: 36px;
   line-height: 1.5;
-  color: #272044;
+  color: #2f2752;
 }
 
 form {
@@ -20,11 +23,12 @@ form {
 }
 
 a {
-  color: #885df1;
+  color: #ffc2e2;
 }
 
 .poem strong {
-  color: #885df1;
+  color: #272044;
+  opacity: 0.8;
 }
 
 .container {
@@ -33,47 +37,55 @@ a {
 }
 
 .instructions {
+  background-color: #f2f3f5;
   padding: 16px;
-  border: 1px solid rgba(39, 33, 66, 0.5);
+  border: 1px solid #ffacc7;
   width: 80%;
   font-size: 16px;
   border-radius: 50px;
   line-height: 20px;
-  color: #272044;
+  color: black;
 }
 
 .submit-button {
   font-size: 16px;
   margin-left: 10px;
-  background: #885df1;
-  color: white;
+  background-color: #ffc2e2;
+  color: #272044;
   border: none;
   border-radius: 50px;
   padding: 14px 24px;
   width: 150px;
 }
+.submit-button:hover {
+  cursor: pointer;
+  background-color: #ffacc7;
+}
 
 .form-container {
   padding: 30px;
-  background-color: white;
+  background-color: #b09aff;
+  opacity: 0.8;
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   margin-bottom: 30px;
 }
 
 .hint {
+  color: black;
   line-height: 1.5;
   font-size: 12px;
   margin-top: 5px;
-  opacity: 0.6;
 }
 
 .poem {
+  color: #272044;
   font-size: 16px;
-  background-color: white;
+  background-color: #ffc2e2;
   padding: 20px;
   line-height: 2;
-  border-left: 3px solid #885df1;
+  border-radius: 5px;
+  border-left: 4px solid #b09aff;
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
 }
 
@@ -92,6 +104,7 @@ a {
 }
 
 footer {
+  color: white;
   text-align: center;
   font-size: 13px;
   margin-top: 30px;
